@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Adryan-Dev - Especializada em Soluções Digitais</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="Agência Especializada em Marketing Digital, Criação de Sites e Aplicativos Mobile.">
+        <meta name="keywords" content="Agência Digital, Marketing, Sites">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Adryan Buonincontro">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/icon.png">
+    </head>
+    <body>
+        <header class="cabecalho">
+           <a href="index.html"><h1 class="logo">Adryan-Dev - Especializada em Soluções Digitais</h1></a>
+           <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+           <nav class="menu">
+               <a class="btn-close"><i class="fa fa-times"> </i></a>
+               <ul>
+                   <li><a href="">Home</a></li>
+                   <li><a href="">Clientes</a></li>
+                   <li><a href="">Serviçõs</a></li>
+                   <li><a href="">Blog</a></li>
+                   <li><a href="">Quem Somos</a></li>
+                   <li><a href="">Contato</a></li>
+               </ul>
+           </nav>
+        </header>
+        <div class="banner">
+            <div class="title">
+                <h2>OUSE INOVAR!</h2>
+                <h3> Criamos experiência e estabelecemos ações estratégicas que conectam marcas e consumidores</h3>
+            </div>
+            <div class="buttons">
+                <button class="btn-cadastrar"> Cadastrar <i class="fa fa-arrow-circle-right"></i></button>
+                <button class="btn-sobre"> Sobre <i class="fa fa-question-circle"></i></button>
+            </div>
+        </div>
+        <main class="servicos">
+            <article class="servico">
+                <a href="#"><img src="img/criacoes.jpg" alt="Campanhas publicitárias"></a>
+                <div class="inner">
+                    <a href="#"> Campanhas Publicitárias </a>
+                    <h4>Impressos, VTs e Jingles</h4>
+                    <p>
+                        Se você está precisando de criação de algum material em específico , de profissionais.
+                        Eles farão toda campanha publicitária. VT, outdoor, folder, anúncio e empresas
+                        no mais alto padrão de qualidade.
+                    </p>
+                </div>
+            </article>
+            <article class="servico">
+                <a href="#"><img src="img/md.jpg" alt="Marketing Digital"></a>
+                <div class="inner">
+                    <a href="#"> Marketing Digital </a>
+                    <h4>Administração de Redes Sociais</h4>
+                    <p>
+                        Como agência de publicidade aplicamos estratégias nos meios 
+                        digitais para que a seu negócio seja visto por milhões de usuários.
+                        O brasil é o 5º país mais conectado ao mundo. Por este motivo, 
+                        o seu negócio não pode ficar de fora do mercado digital
+                    </p>
+                </div>
+            </article>
+            <article class="servico">
+                <a href="#"><img src="img/cs.jpg" alt="Criação de sites"></a>
+                <div class="inner">
+                    <a href="#"> Criação de sites </a>
+                    <h4> Sites Administráveis </h4>
+                    <p>Agora você pode administrar seu site quando e como quiser
+                       E melhor ainda pois você pode pagar por este serviço, pois desenvolvemos
+                       de forma. Seu Site atualizado, com seus últimos
+                       produtos, integração com redes sociais, agora é possivel. 
+                    </p>
+                </div>
+            </article>
+        </main>
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <h2> Inscreva-se agora!</h2>
+            <h3> Receba novidades, dicas e muito mais </h3>
+            <form>
+                <input type="email" name="email" placeholder="Seu email:">
+                <button>Cadastrar</button>
+            </form>
+        </section>
+        <!-- RODAPÉ-->
+        <footer class="rodape">
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+                <p class="copyright">
+                    Copyright © Adryan-Dev 2020. Todos os direitos reservados.
+                </p>
+            </div>
+        </footer>
+        
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(".btn-menu").click(function(){
+               $(".menu").show(); 
+            });
+
+            $(".btn-close").click(function(){
+               $(".menu").hide(); 
+            });
+        </script>
+    </body>
+</html>
